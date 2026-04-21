@@ -1,4 +1,6 @@
-# QariAI-Intelligent-Quran-Recitation-Analyzer
+### QariAI-Intelligent-Quran-Recitation-Analyzer
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/f7c2116c-b809-4e23-b05e-91251dc530c3" />
+
 QariAI – Intelligent Quran Recitation Analyzer is an AI system that listens to Quran recitation, detects pronunciation and tajweed mistakes, and provides feedback to help users improve their recitation accuracy.
 🕌 QariAI – Intelligent Quran Recitation Analyzer
 📖 Overview
