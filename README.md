@@ -41,6 +41,7 @@ QariAI is a full-stack web application that uses artificial intelligence to help
 - ✅ **Instant Feedback** - Audio and visual feedback for correct/incorrect recitation
 - 📊 **Progress Tracking** - Accuracy percentage and word completion metrics
 - 🌐 **Dual Language** - Urdu and English translations
+### Screen Short
 
 ### AI Capabilities
 - 🧠 **Speech Recognition** - Converts speech to text
