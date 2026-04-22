@@ -1,56 +1,92 @@
 ## QariAI-Intelligent-Quran-Recitation-Analyzer
 <img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/f7c2116c-b809-4e23-b05e-91251dc530c3" />
 
-QariAI – Intelligent Quran Recitation Analyzer is an AI system that listens to Quran recitation, detects pronunciation and tajweed mistakes, and provides feedback to help users improve their recitation accuracy.   
-## 🕌 QariAI – Intelligent Quran Recitation Analyzer   
-## 📖 Overview   
+# 🎙️ QariAI – Smart Quran Recitation Tutor
 
-QariAI is an AI-powered system designed to analyze Quranic recitation in real time. It listens to a user’s recitation, detects pronunciation and Tajweed (rules of Quranic pronunciation) mistakes, and provides intelligent feedback to help improve accuracy and fluency.    
+<div align="center">
 
-The goal of this project is to support learners in improving their Quran recitation through interactive, automated, and AI-based guidance.   
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.8+-yellow)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-teal)
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
 
-## 🚀 Features   
-🎧 Audio Input Analysis – Upload or record Quran recitation    
-🧠 AI-Based Pronunciation Detection – Identifies incorrect pronunciation of Arabic words  
-📜 Tajweed Rule Checking – Detects common Tajweed mistakes   
-📊 Instant Feedback System – Highlights errors with corrections  
-📈 Improvement Suggestions – Helps users improve recitation step by step  
-🔊 Speech-to-Text Alignment – Compares recitation with correct Quranic text  
-## 🛠️ Tech Stack  
-Python 🐍   
-Deep Learning / Machine Learning 🤖  
-Speech Recognition (ASR)  
-NLP (Natural Language Processing)  
-Audio Processing (Librosa / PyDub)  
-Flask / FastAPI (for backend API)  
-React / HTML-CSS-JS (for frontend – optional)  
+**An AI-powered application to help Muslims learn and perfect Quran recitation with real-time feedback**
 
-AI model compares output with correct Quranic text  
-## Detects:
-Pronunciation mistakes  
-Missing/extra words  
-Tajweed rule violations  
-Generates feedback report 📊  
+[Features](#features) • [Quick Start](#quick-start) • [Installation](#installation) • [Usage](#usage) • [API Documentation](#api-documentation)
 
-## 📊 Future Improvements
-🌐 Multi-language support (Urdu, English explanations)   
-🧠 Advanced Tajweed deep learning model  
-📱 Mobile app version  
-🕌 Personalized learning paths  
-🗣️ Real-time recitation correction  
-## 💡 Use Cases  
-Quran learning apps  
-Madrasah and Islamic education tools  
-Personal recitation improvement    
-AI-based Islamic tutoring systems   
-## 🤝 Contribution
+</div>
 
-Contributions are welcome!
-Feel free to fork this project and improve the AI model, UI, or features.  
+---
 
-## Author  
-**Hamdan Saddique**  
+## 📖 Overview
 
-📜 License
+QariAI is a full-stack web application that uses artificial intelligence to help users practice Quran recitation. The app listens to your recitation in real-time, tracks each word, and provides instant feedback on pronunciation and tajweed rules.
 
-This project is licensed under the MIT License.
+### 🎯 Purpose
+
+- Help Muslims improve their Quran recitation
+- Provide real-time pronunciation feedback
+- Make learning Tajweed accessible to everyone
+- Track progress and celebrate improvements
+
+---
+
+## ✨ Features
+
+### Core Features
+- 🎤 **Real-time Voice Input** - Recite using your microphone
+- 📝 **Word-by-Word Tracking** - Visual highlighting of current word
+- 🔴 **Error Detection** - Automatically detects pronunciation mistakes
+- ✅ **Instant Feedback** - Audio and visual feedback for correct/incorrect recitation
+- 📊 **Progress Tracking** - Accuracy percentage and word completion metrics
+- 🌐 **Dual Language** - Urdu and English translations
+
+### AI Capabilities
+- 🧠 **Speech Recognition** - Converts speech to text
+- 🎯 **Forced Alignment** - Matches spoken words with Quran text
+- 📖 **Tajweed Checking** - Detects phoneme-level errors
+- 🔄 **Real-time Processing** - Instant feedback after each word
+
+### User Interface
+- 🎨 **Modern Islamic Design** - Beautiful dark theme with gold/green accents
+- ✨ **Glassmorphism Effects** - Elegant card designs
+- 📱 **Responsive** - Works on desktop, tablet, and mobile
+- 🎭 **Smooth Animations** - Engaging user experience
+
+### Technical Features
+- 🚀 **FastAPI Backend** - High-performance API
+- 💾 **Local Mode Fallback** - Works even without backend
+- 🔌 **Auto Server Detection** - Seamless switching between modes
+- 🎵 **Audio Feedback** - Correct/incorrect sound effects
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Modern web browser (Chrome, Firefox, Edge, Safari)
+- Microphone access
+- Python 3.8+ (for backend)
+
+### Fastest Way (Local Mode)
+1. Download `qari-ai.html`
+2. Double-click to open in browser
+3. Allow microphone access
+4. Start reciting!
+
+### Full Experience (With Backend)
+```bash
+# Clone or download the files
+git clone https://github.com/yourusername/qari-ai.git
+cd qari-ai
+
+# Install backend dependencies
+pip install -r requirements.txt
+
+# Run backend server
+python backend.py
+
+# Open index.html in browser
+# OR serve with HTTP server
+python -m http.server 3000
