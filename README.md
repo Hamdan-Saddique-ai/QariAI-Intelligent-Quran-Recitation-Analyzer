@@ -75,18 +75,7 @@ QariAI is a full-stack web application that uses artificial intelligence to help
 3. Allow microphone access
 4. Start reciting!
 
-### Full Experience (With Backend)
-```bash
-# Clone or download the files
-git clone https://github.com/yourusername/qari-ai.git
-cd qari-ai
+## Author
+**Hamdan Saddique**
 
-# Install backend dependencies
-pip install -r requirements.txt
-
-# Run backend server
-python backend.py
-
-# Open index.html in browser
-# OR serve with HTTP server
-python -m http.server 3000
+If you lke this project Star this repo
